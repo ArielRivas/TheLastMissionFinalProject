@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.loginContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVhcnRoJTIwYXQlMjBuaWdodHxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: cover;
+  position: relative;
+
+  .formContainer {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    height: 825px;
+    width: 600px;
+    background: rgba(151, 200, 240, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(32, 201, 172, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-family: "Orbitron", sans-serif;
+    color: white;
+  }
+
+  .loginTicket {
+    width: 350px;
+    margin-top: 10%;
+  }
+
+  .loginForm {
+    margin-top: 8%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .loginForm p {
+      margin-bottom: 8px;
+      font-size: 1rem;
+      font-family: "Orbitron", sans-serif;
+      color: white;
+    }
+
+   .loginForm input {
+      margin-bottom: 24px;
+      width: 350px;
+      height: 38px;
+      background-color: #101923;
+      border: 1px solid #2b659b;
+      border-radius: 3px;
+      font-family: "Exo", sans-serif;
+      font-size: 0.9rem;
+      padding: 2%;
+    }
+  }
+
+  .loginButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-top: 2%;
+  }
+
+  .loginButton {
+    font-family: "Exo", sans-serif;
+    width: 180px;
+    background-color: #20c9ac;
+    height: 32px;
+    border-radius: 2px;
+    color: white;
+    background-color: transparent;
+    border: dashed 1px #20c9ac;
+  }
+
+  .loginButton:hover {
+    transition: 1s ease-in-out;
+    background: #20c9ac;
+  }
+}
+
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  width: 50%;
+}
+
+.loginForm input {
+  width: 50%;
+}
+
+.levels {
+  list-style-type: none;
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.lgnButton {
+  border: 1px solid blue;
+}
+
+.levels li {
+  float: left;
+  margin: 0 0 0 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.levels label,
+.levels input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.levels input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.levels input[type="radio"]:checked+label {
+  background: #20c9ac;
+}
+
+.levels label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border: 1px solid #20c9ac;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.levels label:hover {
+  background: #20c9ac;
+}
+
+.lgnButton {
+  font-family: "Exo", sans-serif;
+  width: 180px;
+  background-color: #20c9ac;
+  height: 32px;
+  border-radius: 2px;
+  color: white;
+  background-color: transparent;
+  border: dashed 1px #20c9ac;
+}
+
+.loginButton:hover {
+  transition: 1s ease-in-out;
+  background: #20c9ac;
+}
+
+.btnLogin {
+  margin-top: 45px;
+  font-family: "Exo", sans-serif;
+  width: 180px;
+  background-color: #20c9ac;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  border: dashed 3px white;
+  cursor: pointer;
+}
+
+.btnLogin:hover {
+  background-color: #044136;
+}
+
+.loginForm input {
+  margin-bottom: 24px;
+  width: 350px;
+  height: 38px;
+  background-color: #101923;
+  border: 1px solid #2b659b;
+  border-radius: 3px;
+  font-family: "Exo", sans-serif;
+  font-size: 0.9rem;
+  padding: 2%;
+  color: white;
+
+  &::placeholder {
+    color: white;
+  }
+}

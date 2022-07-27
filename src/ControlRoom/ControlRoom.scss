@@ -1,0 +1,87 @@
+.container__ControlRoom-component {
+  background-image: url(../assets/controlRoom/planetsControlRoom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 6%;
+  align-self: center;
+  gap: 60px;
+  .ControlRoomButtons {
+    text-transform: uppercase;
+    color: var(--color-weak-font);
+    font-family: "Orbitron", sans-serif;
+    background: none;
+    border-radius: 50%;
+    padding: 30px;
+    align-content: center;
+    padding-left: 15%;
+  }
+  .container__ControlRoom-Buttons {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    .ControlRoom__Buttons-Button-a,
+    .ControlRoom__Buttons-Button-b,
+    .ControlRoom__Buttons-Button-c,
+    .ControlRoom__Buttons-Button-d {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      padding: 22px 10px;
+      text-align: center;
+      text-transform: uppercase;
+      background: none;
+      color: white;
+      border: dashed 2px white;
+      &:hover {
+        color: var(--color-interactive);
+        border: dashed 2px var(--color-interactive);
+      }
+    }
+  }
+}
+.ControlRoom__Buttons-Button-c {
+  margin-right: 90px;
+  margin-left: 50px;
+}
+.ControlRoom__Buttons-Button-b {
+  margin-right: 90px;
+}
+.container__ControlRoom-Connections {
+  text-transform: uppercase;
+  color: var(--color-weak-font);
+  gap: 5px;
+  padding: 3px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 10%;
+}
+.container__ControlRoom-Connections-a h4,
+.container__ControlRoom-Connections-c h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.container__ControlRoom-Connections-b ,
+.container__ControlRoom-Connections-d  {
+  margin-top: 25px;
+}
+.container__ControlRoom-Connections-c ,
+.container__ControlRoom-Connections-d  {
+  margin-left: 30%;
+}
+.container__ControlRoom-RocketImg img {
+  margin-left: 40%;
+  margin-top: -20%;
+}
+.container__ControlRoom-TextHeadline {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 46%;
+}
+

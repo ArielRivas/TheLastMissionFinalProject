@@ -1,0 +1,50 @@
+.container__Launch {
+  background-image: url(../../assets/controlRoom/photo-1462331940025-496dfbfc7564.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__Launch-card {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%, -50%);
+  color: white;
+  align-content: center;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 500px;
+  height: 500px;
+  padding-top: 30px;
+  border: 2px solid;
+  border-image: linear-gradient(180deg, var(--color-interactive),var(--color-background-gradial)) 1;
+}
+.container__Launch-button button {
+  border-radius: 50%;
+  margin-top: 30px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  border: dashed 2px white;
+  transition: all 0.3s;
+  &:hover {
+    color: var(--color-interactive);
+    border: dashed 2px var(--color-interactive);
+    transform: scale(1.5)
+  }
+}
+.illustration {
+  padding: 30px;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,63 @@
+.container__NavBar {
+  display: flex;
+  width: 100vw;
+  padding: 40px;
+  font-family: "Orbitron", sans-serif;
+  position: fixed;
+  color: white;
+  text-decoration: none;
+  z-index: 1;
+  .container__NavBar-navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 49px;
+    margin-inline-start: 1283px;  
+    .navBar_Link {
+      color: white;
+      transition: all 0.2s ease;
+      &:hover {
+        padding-bottom: 10px;
+        border-bottom: 2px solid #20c9ac;
+        font-weight: 700;
+      }
+    }
+  }
+ a:visited {
+    color: white;
+    text-decoration: none;
+  }
+ a:active {
+    color: white;
+    text-decoration: none;
+  }
+  .iconNavBar {
+    width: 40px;
+    height: auto;
+    transform: translateY(30%);
+    &:hover {
+      animation: float 3s ease-in-out;
+    }
+  }
+  .dot {
+    height: 5px;
+    width: 5px;
+    background-color: var(--color-interactive);
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(-80%);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    display: none;
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}

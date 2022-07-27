@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;600&family=Montserrat:wght@100;400;600;700&family=Orbitron:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,100&family=Sacramento&display=swap");
+
+body {
+  background-color: #010918;
+}
+
+.heroVideo {
+  margin-bottom: 3%;
+  .videoTag {
+    height: auto;
+    width: 100vw;
+    padding: none;
+    z-index: -10;
+    object-fit: cover;
+    background: transparent;
+    border-radius: 10%;
+    pointer-events: all;
+  }
+
+  .homeTittle {
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    z-index: 10;
+  }
+
+  @media (max-width: 768px) {
+    .homeTittle {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .homeTittle {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .homeTittle {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.slideOne {
+  background-color: lightgray;
+  height: 100vh;
+  margin-bottom: 3%;
+  background-image: url(https://images.unsplash.com/photo-1647322878142-1c3b5f339f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80);
+  background-size: cover;
+  border-radius: 10%;
+
+  .slideOneTittle {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5%;
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    text-align: right;
+    width: 400px;
+  }
+
+  span {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #20c9ac;
+  }
+
+  p {
+    text-align: right;
+    width: 400px;
+    margin-top: 2%;
+    color: white;
+    font-family: "Exo", sans-serif;
+  }
+}
+
+.planetsSlideOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3%;
+
+  .planetInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      color: white;
+      text-align: center;
+      font-family: "Exo", sans-serif;
+    }
+    p {
+      color: white;
+      text-align: center;
+      font-family: "Exo", sans-serif;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .planetsSlideOne {
+    flex-direction: column;
+  }
+}
+
+.slideTwo {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://wallpaperaccess.com/full/4141147.jpg);
+  border-radius: 10%;
+  background-size: cover;
+
+  .slideInfo {
+    width: 40%;
+  }
+
+  h4 {
+    font-family: "Exo", sans-serif;
+    color: white;
+    margin-bottom: 2%;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+  }
+
+  span {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #20c9ac;
+  }
+
+  p {
+    text-align: left;
+    margin-top: 2%;
+    color: white;
+    font-family: "Exo", sans-serif;
+    margin-bottom: 5%;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .slideButton {
+    font-family: "Exo", sans-serif;
+    width: 180px;
+    background-color: #20c9ac;
+    height: 32px;
+    border-radius: 2px;
+    color: white;
+
+    &:hover {
+      opacity: 70%;
+    }
+  }
+}
+
+.buttonSlider {
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  background-color: transparent;
+  border: dashed 1px #20c9ac;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  &:hover {
+    transition: 1s ease-in-out;
+    background: #20c9ac;
+  }
+}
+
+.slideThree {
+  background-color: lightgray;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  background-image: url(https://images.unsplash.com/photo-1571769267292-e24dfadebbdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2090&q=80);
+  background-size: cover;
+  background-position: 0px -280px;
+
+  .slideFinal {
+    width: 35%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+  }
+
+  span {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #20c9ac;
+  }
+
+  p {
+    margin-top: 4%;
+    color: white;
+    font-family: "Exo", sans-serif;
+    margin-bottom: 6%;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .slideButton {
+    font-family: "Exo", sans-serif;
+    width: 180px;
+    background-color: #20c9ac;
+    height: 32px;
+    border-radius: 2px;
+    color: white;
+    background-color: transparent;
+    border: dashed 1px #20c9ac;
+
+    &:hover {
+      transition: 1s ease-in-out;
+      background: #20c9ac;
+    }
+  }
+}
+
+.footer {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+
+  h4 {
+    font-weight: 300;
+    border-bottom: 2px solid #20c9ac;
+    width: 10%;
+    text-align: center;
+    color: white;
+  }
+
+  .names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
+    font-weight: 300;
+    width: 50%;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideFinal {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .planetImageSlider {
+    display: none;
+  }
+
+  .slideInfo {
+    width: 60%;
+  }
+}
+
+hr {
+  background-color: #20c9ac;
+  height: 1px;
+  width: 5%;
+}
+
+.line {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.circle {
+  background-color: #20c9ac;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

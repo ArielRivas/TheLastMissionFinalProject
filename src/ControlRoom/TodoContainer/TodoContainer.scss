@@ -1,0 +1,79 @@
+.container__TodoList {
+  background-image: url(../../assets/controlRoom/photo-1462331940025-496dfbfc7564.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container__TodoList-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%, -50%);
+  color: white;
+  align-content: center;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 500px;
+  height: 500px;
+  padding-top: 30px;
+  border: 2px solid;
+  border-image: linear-gradient(
+      180deg,
+      var(--color-interactive),
+      var(--color-background-gradial)
+    )
+    1;
+}
+.buttonAddTask {
+  background-color: var(--color-interactive);
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.inputToAdd input {
+  width: 300px;
+  height: 20px;
+}
+.labelCheckbox {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.inputCheckbox {
+  accent-color: var(--color-interactive);
+}
+.descriptionCheckbox {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+.taskLenght {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+.buttonListDelete {
+  margin: 30px 30px;
+  padding: 22px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  border: dashed 2px white;
+  &:hover {
+    color: var(--color-interactive);
+    border: dashed 2px var(--color-interactive);
+  }
+}
+input:focus {
+  background-color: var(--color-weak-font);
+}
+.container__TodoList-form input {
+  font-family: "Orbitron", sans-serif;
+}
