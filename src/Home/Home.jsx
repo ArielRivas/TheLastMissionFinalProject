@@ -99,7 +99,7 @@ const Home = () => {
                     <h2>The Last <span>Mission</span></h2>
                     <p>Promotes the responsible exploration of the solar system by developing efforts that protect the science, explored environments and Earth.
                     </p>
-                    <Link to="/controlroom"><button className='slideButton'>Lorem Ipsum</button></Link>
+                    <Link to="/controlroom"><button className='slideButton'>Go inside!</button></Link>
                 </div>
 
             </div>
