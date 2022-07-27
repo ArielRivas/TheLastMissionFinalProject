@@ -20,11 +20,11 @@ const TaskList = props => {
 	));
 	return (
 		<div className="taskLenght">
-			{list.length ? mapListToCheck : "Add a task for yourself, be a good soldier"}
+			{list.length ? mapListToCheck : "Add a mission for yourself, be a good soldier"}
 			{list.length ? (
 				<p>
 					<button className="buttonListDelete" onClick={onClickRemoveItem}>
-						Delete all done task
+						Delete all done mission
 					</button>
 				</p>
 			) : null}

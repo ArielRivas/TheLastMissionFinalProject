@@ -31,28 +31,28 @@ const Home = () => {
             <div className='slideOne'>
                 <div className='slideOneTittle'>
                     <h2>
-                        Lorem ipsum is simply a text of the <span>printing</span>
+                    Carefully control of other <span>worlds</span>
                     </h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and </p>
+                    <p>The Last Mission is the practice of protecting solar system bodies from contamination by Earth life and protecting Earth from possible life forms that may be returned from other solar system bodies.</p>
                 </div>
 
                 <div className='planetsSlideOne'>
                     <div className='planetInfo'>
                         <img src={homeCeres} alt='Ceres' />
                         <h3>CERES</h3>
-                        <p>Lorem ipsum is simply dummy text of printing and typesetting industry</p>
+                        <p>Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors</p>
                     </div>
 
                     <div className='planetInfo'>
                         <img src={homeKeple} alt='Kepler' />
                         <h3>KEPLER 8</h3>
-                        <p>Lorem ipsum is simply dummy text of printing and typesetting industry</p>
+                        <p>It orbits its host star every 3.5 days. The planet also demonstrates the Rossiter–McLaughlin effect, where the planet's orbit affects the redshifting of the spectrum of the host star.</p>
                     </div>
 
                     <div className='planetInfo'>
                         <img src={homePegasus} alt='Pegasus' />
                         <h3>PEGASUS</h3>
-                        <p>Lorem ipsum is simply dummy text of printing and typesetting industry</p>
+                        <p>It is rotating rapidly, with a projected rotational velocity of 130 km/s giving a lower bound on the azimuthal velocity along the star's equator</p>
                     </div>
                 </div>
             </div>
@@ -73,9 +73,13 @@ const Home = () => {
 
             <div className='slideTwo'>
                 <div className='slideInfo'>
-                    <h4>YOUR MISSION</h4>
-                    <h2>Lorem ipsum is simply text of the history of the <span>printing</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                    <h4>OUR HISTORY</h4>
+                    <h2>The history and development of <span>The Last Mission</span></h2>
+                    <p>oncerns regarding lunar and planetary contamination are raised at the International Astronautical Federation 7th Congress in Rome.
+	                A report issued by a subcommittee of the International Council of Scientific Unions describes the first code-of-conduct for Planetary Protection and recommended that the newly formed Committee on Space Research (COSPAR) should resume responsibility for matters of Planetary Protection (October 1958).
+	                United Nations Committee on the Peaceful Uses of Outer Space is formed (December 1958).<br></br><br></br>
+	                The first flight project using the new Planetary Protection recommendations was the Ranger project.
+	                The Viking Lander Capsule 1 and 2 are subjected to terminal sterilization using Dry Heat Microbial Reduction.Space Studies Board publishes Recommendations on Quarantine Policy for Mars, Jupiter, Saturn, Uranus, Neptune and Titan.
                     </p>
 
                 </div>
@@ -92,8 +96,8 @@ const Home = () => {
 
             <div className='slideThree'>
                 <div className='slideFinal'>
-                    <h2>When destiny calls you must be <span>strong</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                    <h2>The Last <span>Mission</span></h2>
+                    <p>Promotes the responsible exploration of the solar system by developing efforts that protect the science, explored environments and Earth.
                     </p>
                     <Link to="/controlroom"><button className='slideButton'>Lorem Ipsum</button></Link>
                 </div>
