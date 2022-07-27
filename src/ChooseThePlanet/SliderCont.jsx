@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 
 const SliderCont = ({activeIndex, sliderImages}) => {
-
-
   return (
     <section>
       {sliderImages.map((slide, index) => (
