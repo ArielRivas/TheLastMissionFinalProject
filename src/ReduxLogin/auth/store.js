@@ -1,22 +1,13 @@
-<<<<<<< HEAD
 import {createStore, applyMiddleware, combineReducers} from 'redux';
 import authReducer from './auth/auth.reducer';
+import videosReducer from '../vidActions/videos.reducer';
 import thunk from 'redux-thunk';
+import {composeWithDevTools} from 'redux-devtools-extension';
 
 const rootReducer = combineReducers({
     auth: authReducer,
+    videos: videosReducer,
   });
-  const store = createStore(rootReducer, applyMiddleware(thunk));
+  const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
 
-=======
-import {createStore, applyMiddleware, combineReducers} from 'redux';
-import authReducer from './auth/auth.reducer';
-import thunk from 'redux-thunk';
-
-const rootReducer = combineReducers({
-    auth: authReducer,
-  });
-  const store = createStore(rootReducer, applyMiddleware(thunk));
-
->>>>>>> 5a8bf53c4354c48e3ab8eacf0822f7cc83513786
   export default store;

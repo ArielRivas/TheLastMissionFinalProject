@@ -61,3 +61,12 @@
     opacity: 0;
   }
 }
+@media (max-width: 425px) {
+  .container__NavBar-navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 3px;
+    margin-inline-start: 2%;  
+  }
+}

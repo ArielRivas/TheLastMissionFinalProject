@@ -12,7 +12,6 @@ const authReducer = (state = INITIAL_STATE, action) => {
             return { ...state, user: payload ? payload : null };
         }
 
-
         default: {
             return state;
         }
