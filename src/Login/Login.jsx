@@ -40,12 +40,12 @@ const Login = () => {
 
         <form className='loginForm' onSubmit={handleSubmit(onSubmit)}>
           <label>
-            <p>userName</p>
+            <p>Name</p>
             <input
               id='userName'
               type='text'
               name='userName'
-              placeholder='Write your userName soldier'
+              placeholder='Write your Name soldier'
               autoComplete='off'
               {...register("userName", { required: true })}
             />
