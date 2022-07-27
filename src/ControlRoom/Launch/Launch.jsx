@@ -13,7 +13,7 @@ const Launch = () => {
         <span className="illustration"><img src={ImgSpaceTravel} width="200px" alt="Gif of a starship flying"></img></span>
         <span className='container__Launch-slider'></span>
         <div className='container__Launch-button'>
-        <Link to='/rocketvideos'>
+        <Link to='/rocketvideosB'>
         <button>Go</button></Link>
         </div>
         
