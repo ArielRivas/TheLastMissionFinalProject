@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function SliderCont({activeIndex, sliderImages}) {
+const SliderCont = ({activeIndex, sliderImages}) => {
   return (
     <section>
       {sliderImages.map((slide, index) => (
@@ -19,4 +19,4 @@ function SliderCont({activeIndex, sliderImages}) {
   )
 }
 
-export default SliderCont
+export default SliderCont;

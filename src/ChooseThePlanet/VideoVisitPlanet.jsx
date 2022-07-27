@@ -3,7 +3,7 @@ import './videovisit.scss';
 import visitVid from "../assets/choose/visit pluton.mp4";
 import { Link } from "react-router-dom";
 
-function VideoVisitPlanet() {
+const VideoVisitPlanet = () => {
   return (
     <section className='container__video-planet'>
       <video className="container__video-planet-vid" width="70%" height="auto" autoPlay muted loop>

@@ -2,7 +2,7 @@ import React from 'react'
 import './RocketVideos.scss';
 import videoRocketB from "../../../assets/controlRoom/videoDestroRockect.mp4";
 
-function RocketVideoEvil() {
+const  RocketVideoEvil = () => {
   return (
     <section className='container__video-launch'>
        
