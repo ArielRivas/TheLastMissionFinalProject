@@ -14,22 +14,17 @@ const Login = () => {
 
   const onSubmit = (formData) => {
     console.log(formData);
+
     API.post("/login", formData).then((res) => {
       localStorage.setItem("token", res.data.token);
-      navigate("/home");
-      const iduserName = document.querySelector("#userName");
-      const idpassword = document.querySelector("#password");
-      const userName = iduserName.value;
-      const password = idpassword.value;
-      const isEvil = document.querySelector("#evil").checked ? true : false;
-      const redirectEvil = () => navigate("/rocketvideosB");
-      const redirectHero = () => navigate("/rocketvideosA");
-      if (isEvil) {
-        dispatch(loginUser(userName, password, redirectEvil));
+      const redirect = () => navigate("/home");
+      if (formData.lvl === "evil") {
+        dispatch(loginUser(res.data.userDB, "B", redirect));
       } else {
-        dispatch(loginUser(userName, password, redirectHero));
+        dispatch(loginUser(res.data.userDB, "A", redirect));
       }
       console.log(res);
+    
     });
   };
 
@@ -71,11 +66,11 @@ const Login = () => {
 
           <ul className='levels'>
             <li className='lgnButton'>
-              <input type='radio' id='evil' required name='level' />
+              <input type='radio' id='evil' required  value="evil" {...register("lvl")} />
               <label htmlFor='evil'>Evil</label>
             </li>
             <li className='lgnButton'>
-              <input type='radio' id='hero' required name='level' />
+              <input type='radio' id='hero' required  value="hero" {...register("lvl")}/>
               <label htmlFor='hero'>Hero</label>
             </li>
           </ul>

@@ -45,4 +45,4 @@ const sliderImages =  [
     },
 ]
 
-export default sliderImages
+export default sliderImages;
