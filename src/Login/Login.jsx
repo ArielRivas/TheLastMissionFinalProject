@@ -49,7 +49,8 @@ const Login = () => {
           <label>
             <p>Password</p>
             <input
-              type='text'
+           
+              type='password'
               id='password'
               name='password'
               placeholder='Write your funny password'

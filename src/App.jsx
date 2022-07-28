@@ -29,9 +29,8 @@ const App = () => {
           <Route path='/rocketvideosA' element={<RocketVideos/>} />
           <Route path='/rocketvideosB' element={<RocketVideoEvil/>} />
           <Route path='/videovisitplanet' element={<VideoVisitPlanet/>} />
-          <Route index element={<Home />} />
+          <Route index element={<Login />} />
           <Route path="login" element={<Login />} /> 
-          <Route path="*" element={<div>Ruta no encontrada</div>} />
         </Routes>
         <Outlet/>
       </div>
