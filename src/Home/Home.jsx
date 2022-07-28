@@ -75,7 +75,7 @@ const Home = () => {
                 <div className='slideInfo'>
                     <h4>OUR HISTORY</h4>
                     <h2>The history and development of <span>The Last Mission</span></h2>
-                    <p>oncerns regarding lunar and planetary contamination are raised at the International Astronautical Federation 7th Congress in Rome.
+                    <p>Concerns regarding lunar and planetary contamination are raised at the International Astronautical Federation 7th Congress in Rome.
 	                A report issued by a subcommittee of the International Council of Scientific Unions describes the first code-of-conduct for Planetary Protection and recommended that the newly formed Committee on Space Research (COSPAR) should resume responsibility for matters of Planetary Protection (October 1958).
 	                United Nations Committee on the Peaceful Uses of Outer Space is formed (December 1958).<br></br><br></br>
 	                The first flight project using the new Planetary Protection recommendations was the Ranger project.

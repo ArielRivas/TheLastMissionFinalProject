@@ -44,11 +44,14 @@ body {
 
   @media (max-width: 600px) {
     .homeTittle {
-      font-size: 2rem;
+      transform: translateY(290%);
+      font-size: 1.5rem;
     }
+    
   }
 
   @media (max-width: 375px) {
+   
     .homeTittle {
       font-size: 1.5rem;
     }
@@ -324,4 +327,18 @@ hr {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+@media (max-width: 425px) {
+  h2, h3, p {
+    font-size: 12px;
+  }
+  .slideInfo p {
+    display: none;
+  }
+  .slideInfo h2 {
+    font-size: 12px;
+  }
+  .slideThree {
+    font-size: 12px;
+  }
 }
