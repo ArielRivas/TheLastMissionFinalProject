@@ -5,11 +5,9 @@ import homeCeres from '../assets/home/homeCeres.png'
 import homeKeple from '../assets/home/homeKeple.png'
 import homePegasus from '../assets/home/homePegasus.png'
 import homerMarsSlider1 from '../assets/home/homerMarsSlider1.png'
-import video from '../assets/home/video.mp4'
+import video from '../assets/home/videoHome2-1.mp4'
 import Carousel from '../Carousel/Carousel';
 import { SliderData } from '../Carousel/SliderData';
-
-
 
 const Home = () => {
 
@@ -74,7 +72,7 @@ const Home = () => {
             <div className='slideTwo'>
                 <div className='slideInfo'>
                     <h4>OUR HISTORY</h4>
-                    <h2>The history and development of <span>The Last Mission</span></h2>
+                    <h2>The history and development of <span><br></br>The Last Mission</span></h2>
                     <p>Concerns regarding lunar and planetary contamination are raised at the International Astronautical Federation 7th Congress in Rome.
 	                A report issued by a subcommittee of the International Council of Scientific Unions describes the first code-of-conduct for Planetary Protection and recommended that the newly formed Committee on Space Research (COSPAR) should resume responsibility for matters of Planetary Protection (October 1958).
 	                United Nations Committee on the Peaceful Uses of Outer Space is formed (December 1958).<br></br><br></br>
